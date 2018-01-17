@@ -1,4 +1,9 @@
 # virtual environment
 venv/
 
+# Log files
+trace.log
+
 # other stuff
+*.pyc
+*.swp
