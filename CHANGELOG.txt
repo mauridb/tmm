@@ -1,6 +1,13 @@
-Release 18/01/2018
+Release 18/01/2018  h22.30
 "Documentation for community"
 --------------------
 # docs/wiki.txt
 # README.md file for community
+####################
+
+Release 19/01/2018  h00.40 
+"Launch application script"
+--------------------
+# create run.py script that start application system
+# create core command script that host our application commands
 ####################

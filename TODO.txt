@@ -1,2 +1,4 @@
 - create logic of match making system, (try to figure out, yourself)
-- create launching script
+- gitflow to help contributors to release easy its code
+- complete run.py adding call functions
+- add core command function to tmm/core.py script
