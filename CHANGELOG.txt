@@ -1,0 +1,6 @@
+Release 18/01/2018
+"Documentation for community"
+--------------------
+# docs/wiki.txt
+# README.md file for community
+####################

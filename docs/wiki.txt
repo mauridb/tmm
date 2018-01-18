@@ -1,0 +1,33 @@
+"This application born to be an open source project that first of all help me contribute, make my python better again, try to figure out some logic system and at the end be usefull for everyone that find title about something like posts, internship, advertising campaigns or meeting group events and whatelse..
+
+Nothing special! Probably easy but it's important for me that TMM helps every beginner (Software/Web Developer) to improve his skills during session of development and figure out the relations between contributors!
+
+..
+Anyway!
+
+This system should be follow this Workflow:
+1) Takes 3 input as param
+	- FirstChoice
+	- SecondChoice
+	- ThirdChoice
+	Everyone has different weight in the system
+
+	- FirstChoice = has to appear always in the final result and eventually can appear 1+ times.
+	- SecondChoice = should be replace by a group of word that describe it so you are not constrained to show it in the final result
+	- ThirdChoice = should be an action verb, forced by the system to build the final result, has to appear.
+
+	Example:
+	- 1° Python
+	- 2° Guitar
+	- 3° Play
+
+	Outputs expected:
+	- 'Play Python like a guitar'
+	- 'Play Python  as if you had strings in you hands'
+
+2) Should check the output using above rules
+if everything ok:
+	add to set of results
+else:
+	discard
+"
