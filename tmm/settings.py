@@ -16,6 +16,7 @@ TEXT_DESCRIPTION = "Description:\n- /registration \t---> register on platform \
 		\n- /choices \t\t---> make your 3 choices to retrieve a list of titles\
 		\n- /match making \t---> after 3 inputs start logic\
 		\n- /save \t\t---> save your result in database..\
+		\n- /query \t\t---> query database fields..\
 		\n- /exit \t\t---> Bye Bye :D "
 
 

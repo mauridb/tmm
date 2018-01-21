@@ -7,7 +7,7 @@ logging.basicConfig(filename='trace.log', level='DEBUG')
 from tmm import settings
 
 from tmm.core.system import registration, create_topic, make_choices, match_making_system
-from tmm.core.db.database_operations import _create
+from tmm.core.db.database_operations import _create, _read, _delete
 from tmm.core.db.migrate import migrate
 
 
@@ -58,10 +58,19 @@ def main():
 			logging.info('Completed match making system!')
 			
 		# check ui to exit the platform
+		if UI == '/query':
+			logging.info('Query database models..')
+			_read(settings.DATABASE_NAME)		
+		
+		# query on database
+		if UI == '/delete':
+			logging.info('Delete data..')
+			_delete(int(input('Which row you wanna delete?\t')))
+		
+		# query on database
 		if UI == '/save':
 			logging.info('Storing data..')
-			_create(data)			
-			
+			_create(data)				
 		
 		# check ui to exit the platform
 		if UI == '/exit':

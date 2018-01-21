@@ -21,3 +21,10 @@ Release 21/01/2018  h17.30
 # create file settings
 
 ####################
+
+Release 21/01/2018  h23.45 
+"Read and Create database"
+--------------------
+# read and create database
+
+####################

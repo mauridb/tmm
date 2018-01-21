@@ -1,4 +1,6 @@
 - create logic of match making system, (try to figure out, yourself)
 - gitflow to help contributors to release easy its code
 - create fabfile to easy run application
-- crud data method that load data from csv -- crud database
+- delete
+- update
+- filter database
