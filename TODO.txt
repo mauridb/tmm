@@ -1,4 +1,4 @@
 - create logic of match making system, (try to figure out, yourself)
 - gitflow to help contributors to release easy its code
-- complete run.py adding call functions
-- add core command function to tmm/core.py script
+- create fabfile to easy run application
+- crud data method that load data from csv -- crud database

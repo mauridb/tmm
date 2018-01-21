@@ -11,3 +11,13 @@ Release 19/01/2018  h00.40
 # create run.py script that start application system
 # create core command script that host our application commands
 ####################
+
+Release 21/01/2018  h17.30 
+"Very big release"
+--------------------
+# complete run.py adding call functions
+# add core command function to tmm/core.py script
+# create database.csv file to store data -- create database
+# create file settings
+
+####################

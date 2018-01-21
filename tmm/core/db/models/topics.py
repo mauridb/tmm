@@ -1,4 +1,4 @@
-from tmm.users import User
+from tmm.core.db.models.users import User
 
 import logging
 logging.basicConfig(filename='trace.log', level='DEBUG')

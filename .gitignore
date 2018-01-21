@@ -1,8 +1,12 @@
 # virtual environment
 venv/
 
+# database
+database.csv
+
 # Log files
 trace.log
+database.log
 
 # Other stuff
 *.pyc
