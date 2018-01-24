@@ -3,11 +3,10 @@
 
 ## Environment
 "Requirements for developers:"
-- Python 3.6.4
+- Python3
 
-**!!Now this point is useless!!**
-```bash
-$ virtualenv venv
+```
+$ virtualenv -p python3 venv
 $ source venv/bin/activate
 $ pip install -r requirements.txt
 ```

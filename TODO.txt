@@ -4,3 +4,5 @@
 - delete
 - update
 - filter database
+- create log model to store into database
+- create a database connection into postgres db
