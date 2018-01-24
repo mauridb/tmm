@@ -1,12 +1,11 @@
 # virtual environment
 venv/
 
-# database
-database.csv
+# configs file
+tmm/core/db/local_settings.py
 
 # Log files
 trace.log
-database.log
 
 # Other stuff
 *.pyc

@@ -8,6 +8,7 @@ import sys
 # Debug mode
 DEBUG = True
 
+
 # Description of the platform
 TEXT_DESCRIPTION = "Description:\n- /registration \t---> register on platform \
 		\n- /topic \t\t---> channel where you wanna insert\
@@ -20,8 +21,8 @@ TEXT_DESCRIPTION = "Description:\n- /registration \t---> register on platform \
 
 # DATABASE CONFIGURATIONS
 DB_CONFIG = {
-	"name": "testpython",
-	"user": "mauridb",
-	"host": "localhost",
-	"password": "mauridb"
+	"name": "<<DATABASENAME>>",
+	"user": "<<USER>>",
+	"host": "<<HOST>>",
+	"password": "<<PASSWORD>>"
 }
