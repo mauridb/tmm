@@ -20,8 +20,8 @@ TEXT_DESCRIPTION = "Description:\n- /registration \t---> register on platform \
 
 # DATABASE CONFIGURATIONS
 DB_CONFIG = {
-	"name": "testpython",
-	"user": "mauridb",
-	"host": "localhost",
-	"password": "mauridb"
+	"NAME": "testpython",
+	"USER": "mauridb",
+	"HOST": "localhost",
+	"PASSWORD": "mauridb"
 }

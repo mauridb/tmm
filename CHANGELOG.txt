@@ -28,3 +28,12 @@ Release 21/01/2018  h23.45
 # read and create database
 
 ####################
+
+Release 28/01/2018  h22.40 
+"Create database tables"
+--------------------
+# create tables
+# set log model
+# insert user into database
+
+####################

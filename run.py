@@ -79,10 +79,10 @@ def main():
 if __name__ == '__main__':
 	# connection database
 	connection_db(
-		settings.DB_CONFIG['name'], 
-		settings.DB_CONFIG['user'], 
-		settings.DB_CONFIG['host'],
-		settings.DB_CONFIG['password']
+		settings.DB_CONFIG['NAME'], 
+		settings.DB_CONFIG['USER'], 
+		settings.DB_CONFIG['HOST'],
+		settings.DB_CONFIG['PASSWORD']
 	)
 
 	# main application start

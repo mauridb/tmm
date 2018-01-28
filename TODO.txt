@@ -5,15 +5,11 @@
 - update
 - filter database
 - create log model to store into database
-# create a database connection into postgres db
-	# create localdatabase
-	# database user
-	# install psycopg2
-	# connection to database psql
-
-# copy file di settings into localsettings
-	# copy settings to local_settings
-
 - improve scaffolding in tmm/core/db --> config
 - rivedere migrate task
 - completare _create method
+	# create user
+	- create topic
+	- create first choice
+	- create second choice
+	- create third choice
