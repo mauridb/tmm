@@ -28,15 +28,15 @@ COMMANDS = [
 	""",
 	"""
 	CREATE TABLE IF NOT EXISTS second_choices (
-			second_choices_id SERIAL PRIMARY KEY,
-			second_choices_word VARCHAR(255) NOT NULL
+			second_choice_id SERIAL PRIMARY KEY,
+			second_choice_word VARCHAR(255) NOT NULL
 		)
 
 	""",
 	"""
 	CREATE TABLE IF NOT EXISTS third_choices (
-			third_choices_id SERIAL PRIMARY KEY,
-			third_choices_word VARCHAR(255) NOT NULL
+			third_choice_id SERIAL PRIMARY KEY,
+			third_choice_word VARCHAR(255) NOT NULL
 		)
 	""",
 	"""

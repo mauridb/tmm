@@ -7,9 +7,11 @@
 - create log model to store into database
 - improve scaffolding in tmm/core/db --> config
 - rivedere migrate task
-- completare _create method
+# completare _create method
 	# create user
-	- create topic
-	- create first choice
-	- create second choice
-	- create third choice
+	# create topic
+	# create first choice
+	# create second choice
+	# create third choice
+	
+	# get topic user database id

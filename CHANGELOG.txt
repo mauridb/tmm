@@ -37,3 +37,17 @@ Release 28/01/2018  h22.40
 # insert user into database
 
 ####################
+
+Release 30/01/2018  h22.10 
+"insert into database"
+--------------------
+# completare _create method
+	# create user
+	# create topic
+	# create first choice
+	# create second choice
+	# create third choice
+	
+	# get topic user database id
+
+####################

@@ -17,8 +17,12 @@ def registration():
 	user.set_last_name(input('Insert your last_name..\n'))
 	return user
 
-def create_topic():
+def create_topic(u):
+	"""
+	param 'u': as user object
+	"""
 	topic = Topic(title=input('Type a topic for your attempt..\n'))
+	topic.set_user(u)
 	return topic
 
 def make_choices():

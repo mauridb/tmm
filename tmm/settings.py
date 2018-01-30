@@ -5,6 +5,10 @@ import os
 import sys
 
 
+# todo: environment production, development
+
+# file names
+
 # Debug mode
 DEBUG = True
 

@@ -8,6 +8,7 @@ class Topic(object):
 	def __init__(self, *arg, **kwargs):
 		for key, value in kwargs.items():
 			setattr(self, key, value)
+		self.description = ''
 
 	def set_description(self, description):
 		self.description = description

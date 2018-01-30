@@ -35,7 +35,7 @@ def main():
 		# check ui to subscribe in a specific topic
 		if UI == '/topic':
 			logging.info('I am creating topic')			
-			topic = create_topic()	
+			topic = create_topic(user)
 			logging.info('Topic succesfully created')
 
 		# check ui start input choices
